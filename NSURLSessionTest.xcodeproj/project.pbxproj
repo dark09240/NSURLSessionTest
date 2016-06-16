@@ -15,6 +15,7 @@
 		B6182D101D12495E00B1E156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6182D0E1D12495E00B1E156 /* LaunchScreen.storyboard */; };
 		B6182D1B1D12495E00B1E156 /* NSURLSessionTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6182D1A1D12495E00B1E156 /* NSURLSessionTestTests.m */; };
 		B6182D261D12495E00B1E156 /* NSURLSessionTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6182D251D12495E00B1E156 /* NSURLSessionTestUITests.m */; };
+		B6182D351D12497900B1E156 /* NSURLSessionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B6182D341D12497900B1E156 /* NSURLSessionTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B6182D211D12495E00B1E156 /* NSURLSessionTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSURLSessionTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6182D251D12495E00B1E156 /* NSURLSessionTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionTestUITests.m; sourceTree = "<group>"; };
 		B6182D271D12495E00B1E156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6182D331D12497900B1E156 /* NSURLSessionTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLSessionTest.h; sourceTree = "<group>"; };
+		B6182D341D12497900B1E156 /* NSURLSessionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		B6182CFF1D12495E00B1E156 /* NSURLSessionTest */ = {
 			isa = PBXGroup;
 			children = (
+				B6182D331D12497900B1E156 /* NSURLSessionTest.h */,
+				B6182D341D12497900B1E156 /* NSURLSessionTest.m */,
 				B6182D031D12495E00B1E156 /* AppDelegate.h */,
 				B6182D041D12495E00B1E156 /* AppDelegate.m */,
 				B6182D061D12495E00B1E156 /* ViewController.h */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6182D081D12495E00B1E156 /* ViewController.m in Sources */,
+				B6182D351D12497900B1E156 /* NSURLSessionTest.m in Sources */,
 				B6182D051D12495E00B1E156 /* AppDelegate.m in Sources */,
 				B6182D021D12495E00B1E156 /* main.m in Sources */,
 			);
